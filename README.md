@@ -1,5 +1,4 @@
 # Miranda-PaperPortfolio
-# MIRANDA CLONE
 Miranda is an award winning paper potfolio website.
 I made a clone of Miranda website with all effects and animations.
 
