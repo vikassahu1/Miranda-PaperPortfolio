@@ -1,0 +1,753 @@
+@font-face {
+    font-family: canopy;
+    src: url(616fd1dd00cf6c70f978fc69_Canopee.ttf);
+}
+
+@font-face {
+    font-family: domain;
+    src: url(5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+@font-face {
+    font-family: vertopal;
+    src: url(vertopal.com_5f242a694256f02b944d5767_EditorialNew-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background-color: #1c1b19;
+    overflow-x: hidden;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color:#1c1b19
+}
+
+#page1{
+    height: 130vh;
+    width: 100vw;
+    /* Page 1 ki overflow hidden krenge taki page k content overflow ho to nhi dikhe    */
+    overflow: hidden;
+    background-color: #c5beb4;
+    position: relative; 
+    
+}
+
+#nav{
+    height: 75px;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-bottom: 1.5px solid #706C66;
+}  
+#nav img{
+    height: 20.2px;
+    width: 40%;
+} 
+#nav h5{
+    font-size: 13px;
+    font-weight: 100;
+    width: 30%;
+    font-family: vertopal;
+    font-weight: lighter;
+    color:#1c1b19;
+}
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+
+#elems{
+    background-color: #c5beb4;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+#elem1{
+    width: 30%;
+    height: 100%;
+    background-color: #c5beb4;
+}
+
+#elem2{
+    width: 30%;
+    height: 100%;
+    background-color: #c5beb4;
+    border-left: 1.5px solid #706C66 ;
+    border-right: 1px solid #706C66 ;
+    padding: 20px 20px;
+    text-align: center;
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    background-color: #c5beb4;
+}
+
+#elems #image-div{
+    height: 55%;
+    width: 100%;    
+    overflow: hidden;
+}
+
+#elem3 #image-div{
+    height: 50%;
+    width: 100%;    
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#image-div:hover img{
+    scale: 1.1;
+    transition: all ease-in-out 1s ;
+}
+
+#elem1 h4{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: canopy;
+    font-weight: normal;
+}
+#elem1 h4 span{
+    font-size: 20px;
+    background-color:#ba3d12;
+    color: #c5beb4;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+#elem1 p{
+    font-family: vertopal;
+    font-weight: normal;
+    color: #1c1b19;
+    font-size: 18px;
+}
+
+#elem2 h2{
+    font-family: canopy;
+    font-size: 4em;
+    color: #1c1b19;
+    font-weight: normal;
+}
+#elem2 h3{
+    font-family: vertopal;
+    font-size: 2.3em;
+    color: #1c1b19;
+    font-weight: normal;
+    padding: 15px 0px;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+#elem2 h6{
+    font-family: vertopal;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #1c1b19;
+}
+#elem2 h6 span{
+    font-family: canopy;
+}
+
+/* For third element   */
+
+#elem3 h4{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: canopy;
+    font-weight: normal;
+}
+#elem3 h4 span{
+    font-size: 20px;
+    background-color:#ba3d12;
+    color: #c5beb4;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+#elem3 p{
+    font-family: vertopal;
+    font-weight: normal;
+    color: #1c1b19;
+    font-size: 18px;
+}
+
+/* Central miranda  */
+
+#page1>h1{
+    font-size: 550px;
+    font-family: canopy;
+    letter-spacing: -25px;
+    color: #c5beb4;
+    background-color:#1c1b19;
+    font-weight: normal;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 1%;
+    line-height: 500px;
+    text-align: center;
+}
+
+/* Page 2  */
+#page2{
+    margin-top: 70px;
+    height:418vh;
+    width: 100vw;
+    background-color: #c5beb4;
+    overflow: hidden;
+}
+
+#elem-p2{
+    display: flex;
+    background-color: #c5beb4;
+    height: 1190px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 30px 60px; */
+}
+
+#elem-p2 #left{
+    height: 100%;
+    width:35%;
+    padding: 0px 30px;
+}
+
+#elem-p2 #left h2{
+    font-family: canopy;
+    font-size: 8em;
+    font-weight: normal;
+    letter-spacing: -8px;
+    color: #1c1b19;
+    line-height: 150px;
+    border-bottom: 1.5px solid #706C66;
+
+
+}
+#elem-p2 #left h2 span{
+    font-size: 1.7em;
+    letter-spacing: -10px;
+    
+}
+#elem-p2 #right{
+    height: 100%;
+    width:65%;
+    border-left: 1px solid #706C66 ;
+}
+
+#image-div1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#left #image-div1{
+    overflow: hidden;
+    border: 1px solid #1c1b19;
+    margin: 0px 10px;
+}
+#left #image-div1 img{
+    scale: 1.1;
+}
+#left p{
+    font-family: vertopal;
+    font-size: 2em;
+    color: #1c1b19;
+    font-weight: normal;
+    margin-top: 50px;
+}
+#left p span{
+    font-family: canopy;
+    font-size: 1.65em;
+}
+
+#right #image-div1{
+    overflow: hidden;
+    border: 1px solid #1c1b19;
+    margin: 50px;
+}
+
+#right #image-div1 img{
+    scale: 1.1;
+}
+
+
+#elem-p2 #right h2{
+    font-family: canopy;
+    font-size: 7.5em;
+    font-weight: lighter;
+    letter-spacing: -6px;
+    color: #1c1b19;
+    line-height: 120px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+
+#elem2-p2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+#elem2-p2>h1{
+    font-size: 460px;
+    font-family: canopy;
+    letter-spacing: -25px;
+    color: #c5beb4;
+    background-color:#1c1b19;
+    font-weight: normal;
+    width: 73%;
+    margin-left: 2%;
+    margin-top: 1%;
+    line-height: 370px;
+    text-align: left;
+    padding-left:15px;
+}
+
+#elem2-p2 #image{
+    margin: auto;
+}
+
+
+/* Element 3  */
+
+#elem3-p2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 30px;
+}
+
+#elem3-p2-left{
+    display: flex;
+    width: 64%;
+    border-right: 1.5px solid #1c1b19;
+}
+#lhalf{
+    height: 300px;
+    width: 46%;
+    border-right: 1.5px solid #1c1b19;
+}
+#lhalf h1{
+    font-family: canopy;
+    font-size: 63px;
+    font-weight: normal;
+    color: #1c1b19;
+    letter-spacing: -4px;
+}
+#lhalf h2{
+    font-family: vertopal;
+    font-size: 2.5em;
+    color: #1c1b19;
+    font-weight: normal;
+    margin-top: 10px;
+    padding-right: 40px;
+    line-height: 45px;
+}
+
+#lhalf p{
+    font-family: vertopal;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #1c1b19;
+    padding-top: 30px;
+}
+
+
+#lhalf p span{
+    font-family: canopy;
+    
+}
+
+
+
+#rhalf{
+    height: 300px;
+    width: 54%;
+    margin: 0px 45px;
+    padding-right: 45px;
+}
+#rhalf #image-div{
+    height: 45%;
+    width: 100%;    
+    overflow: hidden;
+}
+
+#rhalf h2{
+    font-family: canopy;
+    font-size:33px;
+    font-weight: normal;
+    color: #1c1b19;
+    letter-spacing: -2px;
+    margin: 10px 0px;
+}
+
+#rhalf P{
+    font-family: vertopal;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #1c1b19;
+}
+
+#elem3-p2-right{
+    height: 300px;
+    width: 36%;
+    /* border-right: 1.5px solid #1c1b19; */
+}
+
+#elem3-p2-right h1{
+    font-family: canopy;
+    font-size: 8em;
+    font-weight: normal;
+    letter-spacing: -8px;
+    color: #1c1b19;
+    line-height: 150px;
+    
+    
+
+
+}
+#elem3-p2-right h1 span{
+    font-size: 1.7em;
+    letter-spacing: -10px;
+    
+}
+
+
+/* Element 4 */
+
+#elem4-p2{
+    display: flex;
+}
+#elem4-p2 #image{
+    width: 63.4%;
+    overflow: hidden;
+    padding: 0px 30px;
+    padding-right: 50px;
+}
+
+
+#elem4-p2 #image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#elem4-p2-right{
+    width: 36.6%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1.5px solid #1c1b19;
+}
+
+#elem4-p2-right #div3{
+    height: 220px;
+    background-color: #CAC1B6;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #1c1b19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#div3 h1{
+    font-size: 85px;
+    font-family: canopy;
+    font-weight: normal;
+    letter-spacing: -5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-40%);
+    transition: all ease 0.6s;
+}
+
+#div3 img{
+    height: 60px;
+    transform: translateX(-120%);
+    transition: all ease 0.6s;
+}
+
+#div3:hover h1{
+    transform: translateX(100%);
+}
+
+#div3:hover img{
+    transform: translateX(69%);
+}
+
+
+#elem4-p2-right #div2,#elem4-p2-right #div1{
+    font-family: vertopal;
+    font-size: 2em;
+    color: #1c1b19;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+#elem4-p2-right #div1 span{
+    font-family: canopy;
+    font-size: 1.65em;
+}
+
+/* Element 5  */
+#elem5-p2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+    margin: 30px;
+    margin-top: 70px;
+    border-top: 1.5px solid #1c1b19;
+    border-bottom: 1.5px solid #1c1b19;
+    color: #1c1b19;
+}
+
+#elem5-p2 .awards{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#elem5-p2 .awards .left h2{
+    font-family: vertopal;
+    font-size: 25px;
+    font-weight: normal;
+}
+#elem5-p2 .awards .left h1{
+    font-family: canopy;
+    font-size: 75px;
+    font-weight: normal;
+}
+
+#elem5-p2 .awards .right{
+    font-family: vertopal;
+    font-size: 125px;
+    font-weight: 650;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* Page 3 */
+
+#page3{
+    height: 215vh;
+    width: 100vw;
+    background-color: #c5beb4;
+    overflow: hidden;
+    color: #1c1b19;
+}
+#page3-div1{
+    display: flex;
+    height: 110vh;
+    padding: 75px 30px;
+}
+
+
+#page3-div1-right{
+    width: 50%;
+    
+}
+
+#page3-div1-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1.5px solid #1c1b19;
+}
+
+#page3-div1-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 65px;
+    letter-spacing: -15px;
+
+}
+#page3-div1-left .up{
+    height: 50%;
+    display: flex;
+    position: relative;
+    top: -15px;
+    left: 30px;
+}
+
+#page3-div1-left .up .image img{
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+    border: 1.5px solid #1c1b19;
+}
+
+#page3-div1-left .down{
+    height: 50%;
+}
+#page3-div1-left .text{
+    font-family: canopy;
+    font-size: 28.5em;
+}
+
+/* Div 2  */
+
+#page3-div2{
+    height: 50vh;
+    display: flex;
+    padding: 0px 40px;
+    overflow: hidden;
+}
+
+#page3-div2 .image img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border: 1.5px solid #1c1b19;
+}
+#page3-div2 h1{
+    font-family: canopy;
+    font-size: 28em;
+    font-weight: normal;
+    letter-spacing: -20px;
+    position: relative;
+    bottom: 65px;
+}
+
+/* DIV 3 */
+
+#page3-div3{
+    display: flex;
+    height: 50vh;
+}
+
+#page3-div3 .left{
+    margin: auto 40px;
+    width: 60%;
+    font-family: canopy;
+    font-size: 25em;
+    letter-spacing: -20px;
+    color: #c5beb4;
+    background-color: #1c1b19;
+    line-height: 350px;
+    padding: 0 10px;
+}
+
+#page3-div3 .right{
+    font-family: vertopal;
+    font-size: 2em;
+    color: #1c1b19;
+    font-weight: normal;
+}
+#page3-div3 .right h1{
+    font-family: canopy;
+    font-weight: normal;
+    font-size: 3.5em;
+    
+}
+
+
+/* Page4 */
+#page4{
+    height: 39vh;
+    background-color: #c5beb4;
+    color: #1c1b19;
+}
+#page4 #mail{
+    height: 150px;
+    border-top: 1.5px solid #1c1b19;
+    border-bottom: 1.5px solid #1c1b19;
+    margin: 0 30px;
+    padding-top: 20px;
+    
+
+    /* so all content come in same line  */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* To remove scrollbar  */
+#page4 #mail::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* VERY IMPORTANT  */
+#page4 #mail h1{
+    font-size: 90px;
+    font-family: vertopal;
+    font-weight: 100;
+    letter-spacing: -2px;
+    display:inline-block;
+    margin-right: 20px;
+
+    animation-timing-function: linear;
+    animation-name: scroll;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#page4 #mail h1 span{
+    font-family: canopy;
+    background-color: #1b1b1b;
+    color: #C4BCB3;
+    padding: 0 10px;
+
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    /* Yaha par 20px ki padding di thi to use hataya h  */
+    100%{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+
+#footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: canopy;
+    font-size: 25px;
+    padding: 0 30px;
+}
